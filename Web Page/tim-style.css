@@ -1,0 +1,66 @@
+html{
+  background-color: White;
+}
+
+body{
+  padding: 20px 10px;
+  font-family: Helvetica;
+  max-width: 2000px;
+  font-size: 14px;
+}
+
+h1{
+  font-size: 30px;
+  text-align: center;
+  color: #83bfb4;
+}
+
+p{
+  margin: 5px 0;
+}
+
+li{
+  font-size: 15px;
+  line-height: 44px;
+}
+
+.notes{
+  background-color: #83bfb4;
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.topic{
+  background-color: #DFEAF1;
+  padding: 4px;
+  margin: 10px;
+  color: black;
+}
+
+.topic-title{
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  color: #83bfb4
+}
+
+.example{
+    display: flex;
+}
+
+img{
+  max-width: 400px;
+  max-height: 400px;
+  margin: 4px;
+  padding: 4px;
+
+}
+
+.description{
+  max-width: 400px;
+  max-height: 400px;
+  margin: 4px;
+  padding: 4px;
+}

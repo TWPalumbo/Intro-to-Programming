@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Tim's Notes</title>
+  <link rel="stylesheet" href="tim-style.css">
+</head>
+<body>
+  <div class="TOC">
+    <h1>Table of Contents</h1></div>
+    <ol>
+      <li><a href=#What-is-HTML?>What is HTML?</a></li>
+      <li><a href="#tags">Tags</a></li>
+      <li><a href="#HTML-Attributes">HTML Attributes</a>
+        <ul>
+          <li><a href="#Hyperlinking">Hyperlinking</a></li>
+          <li><a href="#images">Images</a></li>
+          <li><a href="#White-Space">White Space</a></li>
+          <li><a href="#Inline-vs-Block-Elements">Inline vs Block Elements</a></li>
+          <li><a href="#Span/Div">Span/Div</a></li>
+        </ul>
+      </li>
+        <li><a href="#HTML-Structure">HTML Structure</a></li>
+      </ol>
+  <h1>Notes</h1>
+  <div class="notes">
+    <h2 id=What-is-HTML?> What is HTML?</h2>
+    <div class="topic">
+    <p> What does <em> HTML </em> stand for?</p>
+    <p>Answer: HyperText Markup Language</p></div>
+  <h2 id=tags>Tags</h2>
+  <div class="topic">
+    <p>&lt;b> = bold text </p>
+    <p>&lt;em> = italics</p>
+    <p>*Must use a / in the tag to end the tag (example &lt;/b> ends a bold tag)</p>
+    <p>If you don't use the / to end the tag it will apply to any text after it as well</p>
+  </div>
+  <h2 id=HTML-Attributes>HTML Attributes</h2>
+  <div class="topic">
+    <div class="topic-title" id=Hyperlinking>Hyperlinking</div>
+      <div>
+        <p>&lt;a> = an anchor<br>href = an attibute with value<p>
+        <p>This is used to create a hyperlink in HTML<p>
+        <p>Example:&lt;a href="https://udacity.com">HTML&lt;/a> will hyperlink the web address
+          "<a href="https://udacity.com">https://udacity.com</a>" under where "HTML" is</p>
+      </div>
+      <br>
+    <div class="topic-title" id=images>Images</div>
+      <div>
+        <p>&lt;img> - Images</p>
+        <p>All images need a source which is used with abbreviation "src"</p>
+        <p>Image sources need a "url"</p>
+        <p>"Alt" - Is texted that gets displayed if an image doesn't load</p>
+        <p>*Images don't need a closing tag (inline text)</p>
+        <p> Below is an example of a string needed to place an image into your web page:</p>
+    <div class="example">
+      <div class="image"><img src="images/20170916_102245.jpg" alt="Happy Dog Picture"></div>
+      <div class="description">Example: img src="images/20170916_102245.jpg" alt="Happy Dog Picture"</div>
+    </div>
+      <br>
+    <div class="topic-title"  id=White-Space>White Space</div>
+        <p>In HTML all white space just turns into a Space</p>
+        <p>&lt;br> is a line break (also a void tag)</p>
+        <p>&lt;p> is a paragraph tag its not a line tag so it needs a closing tag</p>
+        <p>* These both create spaces, but it takes 2 &lt;br> tags to create a space</p>
+      <br>
+      <div class="topic-title"  id=Inline-vs-Block-Elements>Inline vs Block Elements</div>
+        <p>&lt;br> is an inline Elements, it can create a space out of any string of code without a closing tag</p>
+        <p>*It just ends a line</p>
+        <p>&lt;p> is a block element, which creates a line break but in block using an opening and closing tag</p>
+        <p>*It creates an invisible box around text</p>
+        <br>
+      <div class="topic-title" id=Span/Div>Span/Div</div>
+        <p>Span is inline and Div is block</p>
+        <p>with span and div you can add style to the document using CSS</p>
+        <p> you achieve this by adding "class" type with css, here is an exmaple:</p>
+        <p>&lt;span class="foo"></p>
+      </div>
+    </div>
+      <h2 id=HTML-Structure>HTML Structure</h2>
+      <div class="topic">
+        <p>HTML document embodies more than just the attributes we have learned</p>
+        <p>For example an HTML document may consist of the following:</p>
+      <br>
+      <div class="topic-title">Example of an HTML Document</div>
+        <p>&lt;!DOCTYPE HTML> - <em>doctype</em></p>
+        <p>&lt;html> - <em>opening HTML tag</em></p>
+        <p>&lt;head> - <em>contains metadata and title for document</em><br>
+        <p>&lt;title> Title! &lt;/title> <br>
+        <p>&lt;/head></p>
+        <p>&lt;body> - <em> - opening tag for body of the document</em><br>
+        <p><b>CONTENT</b></p>
+        <p>&lt;/body> - <em> - closing tag for body</em></p>
+        <p>&lt;/html> - closing tag for HTML document</p></div>
+      </div>
+    </body>
+</html>
